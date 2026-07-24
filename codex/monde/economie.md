@@ -1,0 +1,122 @@
+---
+id: economie
+aliases: [L'Économie, Le Marché, économie du lien]
+type: codex
+layer: consequence
+status: draft
+depends_on:
+  - "[[le-cycle]]"
+  - "[[le-lien]]"
+  - "[[couleurs-magiques]]"
+touches:
+  - "[[lumens]]"
+  - "[[roche-memoire]]"
+  - "[[prismes-noirs]]"
+  - "[[vexhards]]"
+  - "[[tisseuses]]"
+  - "[[geographie]]"
+  - "[[humain]]"
+  - "[[la-purge]]"
+tensions:
+  - "[[monopole-de-la-penurie]]"
+---
+
+# L'Économie
+
+> **Rôle dans le canon.** Fiche-**hub** de tout ce qui se marchande dans le Sillage. Volontairement pauvre pour l'instant : elle grossira à mesure que l'univers se précise. Sa fonction immédiate est de **rassembler** les fils économiques dispersés dans les autres fiches, pour qu'ils cessent d'y faire du bruit et qu'on voie l'ensemble.
+
+> **Statut : `draft`.** Ossature. Monnaie, guildes, fiscalité, unités de compte : tout reste à écrire.
+
+---
+
+## 1. Pourquoi il y a un marché
+
+**Déduction fondatrice.** [[le-cycle#2. Les quatre temps|le-cycle §2]] établit que **la magie n'est pas vitale, elle est constitutive** : on ne meurt pas d'en manquer, mais on en veut. Or c'est exactement la définition d'un **bien** — une chose désirable dont la privation est supportable.
+
+> Si la magie était vitale, elle ne se vendrait pas : on ne marchande pas l'air. Si elle était accessoire, personne ne paierait. Elle est entre les deux — indispensable à la vie qu'on veut mener, pas à la survie. **C'est ce qui la rend marchande.**
+
+Toute l'économie du Sillage naît de ce point, et de deux autres déjà posés :
+
+- **La magie se stocke** — un [[lumens|Lumen]] retient du Flux différencié hors circuit. Ce qui se stocke se thésaurise, donc se vend ([[#2. Le marché des Lumens|§2]]).
+- **La bonne magie est rare** — l'harmonie parfaite est une coïncidence de naissance ([[le-lien#6. L'échelle d'harmonie : la lecture chromatique|le-lien §6]]). Ce qui est rare et désiré se dispute ([[#3. Le marché noir|§3]], [[#4. Le monopole de la pénurie|§4]]).
+
+---
+
+## 2. Le marché des Lumens
+
+*(Déplacé depuis [[le-cycle]] §7, qui garde le mécanisme physique — le Lumen comme perfusion pendant la récession.)*
+
+Les Lumens se **raffinent par teinte**, et le commerce s'est stratifié en conséquence :
+
+- **Premium** — remplis d'une teinte **exacte**, calibrés pour une consommation précise (une école de magie, un usage militaire, un rituel). Une magie prête à l'emploi, sans perte. Réservés à qui peut payer le paramétrage.
+- **Classiques** — teintes **génériques**, parfois même de la magie **incomplètement raffinée** : le réceptacle n'a pas fini de la différencier, il reste du travail à faire côté utilisateur. Rendement médiocre — et **d'autant plus médiocre en période creuse**, quand l'énergie manque justement pour terminer l'ouvrage.
+
+> **Le pauvre paie sa magie deux fois : au marché, puis à l'effort.** Et il la paie au pire moment, puisque c'est en récession qu'il en a le plus besoin et qu'elle rend le moins.
+
+⚠️ *À écrire : qui raffine les Lumens premium ? Des dyades sous contrat, des ateliers, une guilde ? Le raffinage haut de gamme est un métier, donc un pouvoir.*
+
+---
+
+## 3. Le marché noir
+
+Deux trafics distincts, déjà décrits ailleurs, qui relèvent de cette fiche :
+
+- **Les teintes rares** — les [[tisseuses|Tisseuses déchues]] vendent des liens forcés aux grandes familles et aux nouveaux riches. Le marché ne trafique pas des « âmes » abstraites : il trafique des **teintes** que le stock naturel ne fournit pas. Voir [[le-lien#8. Les Tisseuses|le-lien §8.2]].
+- **Le raccourci** — les [[prismes-noirs|Prismes Noirs]] vendent en une opération ce qui coûterait des décennies d'étude. Ce qu'ils marchandent réellement, c'est du **temps**. Contrefaçon industrielle de la faculté humaine, fabriquée par les [[vexhards|Vexhards]] à partir d'âmes volées. Voir [[humain#6. Raccord : les Prismes Noirs sont une contrefaçon|humain §6]].
+
+> **Les deux vendent la même chose sous deux formes : de la rareté qu'on n'a pas eu la chance de recevoir à la naissance.**
+
+---
+
+## 4. Le monopole de la pénurie
+
+Le cœur politique de l'économie du lien, développé dans [[humain#10. Pourquoi les élites laissent faire|humain §10]] :
+
+> La puissance des grandes familles repose sur le **contrôle de l'accès aux réceptacles** : routes, Jardins de Lien, alliances, [[geographie|lieux de rite privatisés]]. **Leur monopole, c'est la pénurie.** Toute abondance nouvelle les ruinerait — ce qui fait de la rareté un actif qu'on protège, et de la [[la-purge|Purge]] une politique économique déguisée en coutume.
+
+C'est la tension [[monopole-de-la-penurie]].
+
+---
+
+## 5. Ce que cette fiche centralisera
+
+*Carte des fils économiques encore logés dans d'autres fiches. À rapatrier ou à relier au fur et à mesure.*
+
+- **L'économie de la mort violente** — la [[roche-memoire|Roche-Mémoire]] fossilise une essence : un bien né d'un meurtre. Voir [[le-cycle#4. La boucle de rétroaction|le-cycle §4]].
+- **Le prix du « naturel »** — l'accès aux lieux de rite puissants s'achète, et avec lui la qualité de l'âme d'un enfant. Voir [[le-lien#3. Les lieux du rite|le-lien §3]].
+- **La géographie du pouvoir** — la carte des lieux de rite est la carte des marchés. Voir [[geographie]].
+
+> **Piège à éviter — ne pas confondre deux « prix ».** Le « coût » de la [[couleurs-magiques#5. La mobilité des valeurs : rien n'est figé, tout est coûteux|mobilité des valeurs]] (années, discipline, vie dépensée) est une **métaphore**, pas une transaction. Cette fiche traite de ce qui s'échange contre de la monnaie, pas de l'effort d'un individu sur lui-même.
+
+---
+
+## 6. Ce que cette fiche contraint
+
+- **[[lumens]]** — l'objet a une face physique (réservoir magenta) et une face marchande (ici).
+- **[[vexhards]]** — l'industrialisation de la dyade est un modèle économique avant d'être une horreur.
+- **[[geographie]]** — les marchés sont là où sont les lieux de rite.
+
+---
+
+## Ouvertures
+
+> [!warning] Trous volontaires
+> - **⚠️ La monnaie.** Y en a-t-il une seule ? Frappe-t-on du métal, ou l'unité de compte est-elle une mesure de magie (un volume de Flux, une heure de dyade) ? Le Sirrhal est-il monnayable ?
+> - **⚠️ Qui contrôle le raffinage** des Lumens premium — guilde, familles, État ?
+> - **⚠️ L'assurance du pouls.** [[le-cycle#6. Les deux échelles (résolution de collision)|le-cycle §6]] dit que la société « assure » la respiration courte. Un marché de l'assurance existe donc — contre quoi, vendu par qui ?
+> - **⚠️ Le crédit et la dette.** Une société qui thésaurise la magie pratique-t-elle le prêt ? Prête-t-on du Flux ?
+> - **⚠️ Le travail des réceptacles.** Sont-ils payés, possédés, salariés, réquisitionnés ? Leur statut économique est le vrai visage du [[le-lien#5. Réceptacles et utilisateurs — le modèle|prestige des rôles]].
+
+---
+
+## Choix abandonnés
+
+*Consignés ici pour éviter le bruit dans le corps de la fiche. Ne pas reproposer ; motifs détaillés dans [[journal#Écartés (et pourquoi)|journal.md]].*
+
+- *(néant à ce jour)*
+
+---
+
+## Dernière validation
+
+**2026-07-22** — création comme hub économique. Contenu déplacé : marché des Lumens (depuis le-cycle §7). Reste `draft` : monnaie, guildes, crédit, statut économique des réceptacles.

@@ -1,0 +1,12 @@
+{
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_inbox",
+  "attachmentFolderPath": "_meta/attachments",
+  "showUnsupportedFiles": false,
+  "trashOption": "local",
+  "readableLineLength": true,
+  "strictLineBreaks": false
+}
