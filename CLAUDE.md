@@ -23,6 +23,9 @@ codex/histoire/                        la-purge, l-unification, la-rupture…
 codex/lieux/                           géographie, lieux de rite
 tension/ · chronique/
 _meta/templates/                       gabarits de fiche
+_meta/specs/                           specs d'outillage
+_raw/                                  dépôt des fiches rédigées hors du vault
+_inbox/                                stubs vides créés par clic Obsidian
 ```
 
 Les wikilinks se résolvent **par nom de fichier**, indépendamment du dossier : `[[le-cycle]]` fonctionne où que soit le fichier. Ne jamais écrire de chemin relatif dans un lien.
@@ -134,6 +137,16 @@ Présentes dans les quatre gabarits. Une fiche neuve les porte donc d'office.
 - **Écrire immédiatement.** Quand une décision est prise, l'écrire dans le fichier concerné dans la foulée. Ne pas laisser le canon vivre dans le chat. Ne pas attendre la fin de la session.
 - **Proposer les mises à jour** de fichier plutôt que d'attendre qu'on les demande.
 - **Signaler l'obsolescence.** Quand une décision rend caduc quelque chose écrit ailleurs, le dire et proposer le correctif dans l'autre fiche. Une ⚠️ tranchée dans une fiche doit être fermée partout où elle apparaît.
+
+### Fiches venues de l'extérieur
+
+Les `.md` rédigés hors du vault — typiquement par Claude Projects branché au dépôt GitHub — se déposent dans `_raw/` et **ne se rangent jamais à la main**. Ils passent par la skill `/ingerer`, en deux temps : audit qui produit un rapport de collisions dans `_raw/_rapports/` sans rien modifier, puis application après arbitrage écrit. Le rédacteur externe n'a pas remonté les `depends_on` jusqu'aux invariants ni lu la liste « Écartés » : ses fiches sont suspectes par défaut. Spec : `_meta/specs/2026-07-28-ingestion-raw-design.md`.
+
+`_inbox/` est un autre flux — les stubs vides créés par un clic Obsidian sur un lien non résolu. `/ingerer` n'y touche pas.
+
+### Git
+
+Le dépôt est aussi le canal de retour vers Claude Projects, qui lit `main`. Un commit par unité de sens, propagation comprise, pour qu'un `git revert` unique défasse une décision **et ses effets de bord**. Ne jamais commiter sur un working tree dont on n'a pas vérifié le contenu : Obsidian écrit en continu et ignore git, et un commit qui embarque des édits en cours rend son propre revert destructeur.
 
 ### Clôture de session — obligatoire
 
