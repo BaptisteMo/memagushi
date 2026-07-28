@@ -10,6 +10,7 @@ depends_on:
   - "[[coeur-magique]]"
 touches:
   - "[[le-lien]]"
+  - "[[le-plan]]"
   - "[[races-liees]]"
   - "[[roche-memoire]]"
   - "[[lumens]]"
@@ -18,7 +19,6 @@ touches:
   - "[[economie]]"
   - "[[la-purge]]"
   - "[[geographie]]"
-  - "[[couleurs-magiques]]"
 tensions:
   - "[[retractations-aggravees]]"
   - "[[dette-respiratoire]]"
@@ -29,6 +29,8 @@ tensions:
 # Le Cycle — la respiration du monde
 
 > **Rôle dans le canon.** Fiche fondatrice de physique. Remplace l'ancien modèle « robinet » (la gemme donne / la gemme reprend) par un modèle **respiratoire** où le vivant est un **organe** du processus, et non son récipiendaire. Toute la magie, l'économie et l'écologie du Sillage en découlent.
+>
+> **Elle dit le mouvement ; [[le-plan]] dit la mesure.** Le Cycle établit que le Flux circule et que le vivant le différencie. Ce que « différencier » veut dire exactement — déplacer de la matière en énergie et en entropie — est l'objet du Plan. Les deux fiches sont les deux moitiés de la même physique.
 
 ---
 
@@ -38,12 +40,21 @@ tensions:
 
 **Modèle canon : la respiration.**
 
-Les Cœurs Fracturés (Enaär et Saovan) **exhalent du Flux indifférencié** — une énergie brute, sans teinte, sans forme, inutilisable telle quelle. 
-Raffiner ou teinter la magie, c'est le travail du vivant. Le monde vivant transforme le Flux indifférencié en **couleurs, en vies singulières, en expériences, en mémoire, en mort.**
+Les Cœurs Fracturés (Enaär et Saovan) **exhalent du Flux indifférencié** — une énergie brute, sans forme, sans direction, inutilisable telle quelle.
+
+**Différencier, c'est le travail du vivant.** Le monde vivant transforme ce Flux en **ordre local** — en formes, en vies singulières, en expériences, en mémoire, en mort. Techniquement : il le déplace dans les deux grandeurs du [[le-plan|Plan]], une dépense d'énergie et une direction d'ordre.
 
 Puis la gemme **inspire** — elle réabsorbe ce que le vivant a transformé.
 
 > **Loi invariante.** La Rétractation n'est pas un vol ni une punition : c'est une **inspiration**. Le monde est un organisme, et le vivant en est un **organe fonctionnel**. Sans le vivant, la gemme respirerait dans le vide.
+
+### 1.1 Le Cycle est une conservation
+
+**Le Flux n'est ni créé ni détruit.** Il circule et change de forme : la gemme exhale, le vivant différencie, la gemme réinspire, et le total ne bouge pas. C'est un **budget fermé**, jamais une source.
+
+C'est ce qui donne son sens à l'axe énergie du [[le-plan#2. Les deux axes|Plan]] : la puissance qu'un être engage, il la tire du Cycle. **Personne n'en fabrique.** Un acte de magie n'ajoute rien au monde — il déplace ce que le monde a déjà exhalé.
+
+> Le vivant est une **poche d'ordre** que le monde entretient. Différencier, c'est abaisser localement l'entropie — et rien n'abaisse l'entropie quelque part sans la faire monter ailleurs.
 
 ---
 
@@ -69,14 +80,16 @@ C'est ici que la cosmologie et la magie sociale deviennent **la même chose**.
 ```
 GEMME exhale (Flux indifférencié)
       ↓
-RÉCEPTACLE  →  capte et DIFFÉRENCIE en une teinte
+RÉCEPTACLE  →  CHARGE — met le Flux sous tension, le retient
       ↓
-UTILISATEUR →  DÉPENSE en actes, en expériences, en vie
+UTILISATEUR →  LIBÈRE — relâche la tension sur le réel
       ↓
 GEMME inspire (Flux transformé)
 ```
 
-**La dyade n'est pas une métaphore de la respiration du monde : elle en est le mécanisme.** Chaque [[sirrhal|Sirrhal]] actif est une paire de chambres dans le poumon du monde. (Détail du modèle réceptacle/utilisateur : voir [[le-lien#5. Réceptacles et utilisateurs — le modèle|le-lien §5]].)
+**La dyade n'est pas une métaphore de la respiration du monde : elle en est le mécanisme.** Chaque [[sirrhal|Sirrhal]] actif est une paire de chambres dans le poumon du monde. (Mécanisme des deux rôles : [[coeur-magique#1. Deux rôles : charger ou libérer|coeur-magique §1]]. Versant social : [[le-lien#5. Réceptacles et utilisateurs — le versant social|le-lien §5]].)
+
+> **La différenciation a donc deux temps, pas un.** Le réceptacle ordonne sans rien produire au-dehors ; l'utilisateur seul fait basculer l'ordre sur le monde. Ce que la gemme réinspire n'existe qu'au terme des deux — un réceptacle qui ne se déverse jamais ne rend rien au Cycle.
 
 **Corollaire :** une civilisation entière de dyades, c'est un organe collectif. Ce que fait la société au Flux, elle le fait à la respiration du monde.
 
@@ -98,6 +111,10 @@ Le Cycle **n'est pas une horloge**. C'est une boucle : la gemme réagit à **l'�
 - **[[roche-memoire|Roche-Mémoire]]** — une mort violente et soudaine fossilise l'essence au lieu qu'elle soit redistribuée. Une Roche-Mémoire est donc une **respiration interrompue**, un fragment retenu hors du cycle. Toute l'économie de la mort violente est une civilisation qui **prélève sur les poumons du monde**.
 - **[[lumens|Lumens]]** — réceptacles minéraux stockant du Flux différencié hors circuit. Objet économique de premier ordre : voir [[economie#2. Le marché des Lumens|economie §2]].
 - **[[prismes-noirs|Prismes Noirs]] / cœurs extraits** — le détournement à son degré maximal.
+
+> **Ce que le Plan ajoute ici.** Ces trois objets ont la même signature physique : ce sont des **ordres verrouillés**, de l'ordre créé que rien ne reprend ([[le-plan#6. Les deux pôles de l'entropie|le-plan §6]]). Le détournement n'est donc pas une catégorie économique qu'on aurait plaquée sur la physique — c'est un **pôle de l'axe entropie**. Toute permanence arrachée au monde se paie de la même manière : la gemme inspire plus fort.
+>
+> Corollaire qui n'appartient qu'à ce monde : **une civilisation qui bâtit pour durer creuse sa propre disette.** Le monument, l'archive, l'héritage et le Prisme Noir sont le même geste à des degrés différents.
 
 **Conséquence terrible et lucide :** plus la civilisation prospère techniquement, plus elle retient, donc plus la gemme inspire fort, donc plus elle tue. La prospérité *est* le mécanisme de la catastrophe.
 
@@ -132,14 +149,16 @@ Les deux gemmes restent parfaitement synchronisées dans l'Étreinte, sans que n
 
 L'argent, dans le Sillage, c'est le droit de ne pas ressentir le pouls du monde.
 
-> Le **commerce** des Lumens — raffinage par teinte, stratification premium/classique — vit désormais dans [[economie#2. Le marché des Lumens|economie §2]]. Cette fiche ne garde que le mécanisme physique.
+> Le **commerce** des Lumens — raffinage, stratification premium/classique — vit désormais dans [[economie#2. Le marché des Lumens|economie §2]]. Cette fiche ne garde que le mécanisme physique.
 
 ---
 
 ## 8. Ce que cette fiche contraint
 
+- **[[le-plan]]** — l'énergie qu'un acte engage est **tirée du Cycle**, jamais créée ([[#1.1 Le Cycle est une conservation|§1.1]]). Le budget d'un praticien est un prélèvement sur la respiration du monde.
 - **[[le-lien]]** — la dyade est l'organe de la respiration ([[#3. La dyade est l'organe à deux chambres|§3]]).
-- **[[races-liees]]** — les races ne se distinguent plus par « quand elles sont utiles » mais par **ce qu'elles différencient** (mémoire, distance, mort…). Aucune n'est le carburant d'une autre ; chacune est un organe distinct du même corps.
+- **[[coeur-magique]]** — les deux temps de la différenciation, charger puis libérer.
+- **[[races-liees]]** — les races ne se distinguent plus par « quand elles sont utiles » mais par **la région du Plan** où elles différencient à bas prix. Aucune n'est le carburant d'une autre ; chacune est un organe distinct du même corps.
 - **[[roche-memoire]] / [[lumens]] / [[vexhards]]** — requalifiés en **détournements respiratoires** ([[#4. La boucle de rétroaction|§4]]).
 - **[[economie]]** — la prospérité technique est structurellement une dette respiratoire.
 - **[[oracles]]** — leur faillibilité est désormais fondée ([[#5. Pourquoi les oracles échouent|§5]]).
@@ -162,9 +181,10 @@ L'argent, dans le Sillage, c'est le droit de ne pas ressentir le pouls du monde.
 
 - **Le modèle « robinet »** *(abandonné le 2026-07-21)* — la gemme donnait un cadeau puis reprenait son dû. Faisait des vivants des récipiendaires passifs et reconduisait l'extractivisme à l'échelle cosmique. Remplacé par la respiration.
 - **« Rêveurs du Chant »** *(abandonné le 2026-07-22)* — troisième institution oraculaire citée une seule fois en §5, jamais reliée ni définie. Terme orphelin, supprimé.
+- **« Le vivant différencie le Flux en couleurs »** *(abandonné le 2026-07-28)* — la différenciation ne produit pas de teintes : elle déplace la matière en énergie et en entropie ([[le-plan]]). Le système chromatique est supprimé du monde.
 
 ---
 
 ## Dernière validation
 
-**2026-07-22** — passe de cohérence intégrale (magie non vitale, marché des Lumens, raccord à [[couleurs-magiques]]).
+**2026-07-28** — raccordée à [[le-plan]] et [[coeur-magique]]. Aucune loi du Cycle remise en cause : la conservation (§1.1) et la signature entropique des détournements (§4) explicitent ce que la fiche disait déjà sans le nommer.
