@@ -116,24 +116,80 @@ Traite les fiches VERT, plus les ORANGE et ROUGE dont la section `## Arbitrage` 
    - une ligne par décision dans `journal.md` ; les idées écartées vont dans la section « Écartés (et pourquoi) » avec leur motif ;
    - mettre à jour la **moitié manuelle** d'`index.md` — « Ce qui est verrouillé », « Décisions en suspens », « Nommage en souffrance », « Chantiers », « Écartés ». Ne jamais toucher aux blocs Dataview.
 5. **Nettoyer** — supprimer le fichier brut de `_raw/`, passer le rapport à `status: applique`.
+6. **Commiter** — un commit par fiche ingérée (voir §7).
 
 La propagation ne demande pas d'autorisation : `CLAUDE.md` §7 la qualifie de maintenance, pas de décision de canon. Elle est mentionnée en une ligne à la fin.
 
-## 7. Critères de réussite
+## 7. Git
+
+Le dépôt GitHub n'est pas seulement l'historique du vault : c'est le **canal de retour vers Claude Projects**, qui lit `main`. Le commit et le push sont donc la dernière étape fonctionnelle du pipeline, pas une hygiène annexe.
+
+### Séquence
+
+| Moment | Action git |
+|---|---|
+| Avant la passe 1 | Commit des bruts déposés dans `_raw/` — trace de ce qui est entré et sous quelle forme. Puis tag `pre-ingest-AAAA-MM-JJ`. |
+| Fin de passe 1 | Commit du rapport d'audit. |
+| Après arbitrage | Commit du rapport arbitré. La décision est datée séparément de son application. |
+| Passe 2 | **Un commit par fiche ingérée.** |
+| Fin de passe 2 | `git push` sur `main`. |
+
+### Granularité : un commit par fiche, jamais par lot
+
+Une ingestion touche la fiche neuve, le `touches` des fiches amont, `journal.md`, `index.md` et la suppression du brut. Ces cinq mutations tiennent dans **un seul** commit.
+
+Motif : si la fiche se révèle fausse plus tard, `git revert <sha>` défait la fiche **et toute sa propagation** en une opération. Un commit couvrant cinq fiches rend ce retour arrière impraticable — il faudrait démêler à la main la propagation de la mauvaise fiche de celle des quatre bonnes.
+
+Le tag `pre-ingest-AAAA-MM-JJ` couvre le cas inverse : annuler le lot entier, sans énumérer les `sha`.
+
+### Garde-fou : working tree propre exigé
+
+**La passe 2 refuse de s'exécuter si `git status` n'est pas propre.**
+
+C'est le point le plus facile à négliger et le plus coûteux. Obsidian écrit en continu et ignore git. Si des édits manuels sont en cours au moment de l'application, le commit d'ingestion les embarque — et le `revert` censé annuler l'ingestion détruit ce travail au passage. En cas de working tree sale, l'agent s'arrête et énumère ce qu'il faut commiter d'abord.
+
+### Format des messages
+
+Français, impératif ou infinitif, cohérent avec l'historique existant. Sujet ≤ 60 caractères. Corps obligatoire en passe 2 : ce qui a été rangé et où, puis la liste de ce que la propagation a touché.
+
+```
+Ingère <id-fiche> depuis _raw/
+
+Rangée dans codex/<thème>/. Verdict d'audit : <VERT|ORANGE|ROUGE>.
+
+Propagation :
+- touches mis à jour dans <fiche-amont>
+- ⚠️ <intitulé> refermée dans <fiche>
+- journal.md : <décision>
+- index.md : <section touchée>
+```
+
+### Push
+
+Push automatique sur `main` en fin de passe 2. Les commits antérieurs (bruts, rapport, arbitrage) restent locaux jusque-là.
+
+Motif : Projects lit `main`. Un canon validé mais non poussé produit des fiches entrantes qui contredisent des décisions déjà prises — exactement la panne que ce pipeline existe pour supprimer. Contrepartie assumée : un retour arrière après push est un commit public.
+
+## 8. Critères de réussite
 
 - Aucune fiche entrante ne rejoint `codex/` sans être passée par un rapport.
 - Une contradiction d'invariant est nommée avec citation, jamais résolue en silence.
 - Après application, les requêtes Dataview « Dette structurelle » et « Fiches invoquées mais jamais écrites » d'`index.md` reflètent l'état réel — c'est-à-dire que le frontmatter écrit est juste.
 - Un rapport rédigé dans une session peut être appliqué dans une autre sans perte.
+- Toute ingestion est annulable par un `git revert` unique, sans effet de bord sur les autres fiches du même lot.
+- Aucun commit d'ingestion ne contient d'édition manuelle non liée.
 
-## 8. Choix abandonnés
+## 9. Choix abandonnés
 
 - **Réutiliser `_inbox/` comme dossier de dépôt** *(abandonné le 2026-07-28)* — mélange deux flux de nature différente : stubs vides d'Obsidian et fiches rédigées externes.
 - **Ranger en quarantaine (`status: idea` + bloc de collisions en tête de fiche)** *(abandonné le 2026-07-28)* — les fiches non fiables entrent quand même dans le graphe et s'y accumulent.
 - **Laisser l'agent trancher seul les contradictions** *(abandonné le 2026-07-28)* — fait dériver le canon sur des arbitrages structurants sans validation.
 - **Sous-agent au lieu d'une skill** *(abandonné le 2026-07-28)* — contexte isolé, aucun débat possible sur une collision après restitution.
 - **Rapport rendu en conversation seulement** *(abandonné le 2026-07-28)* — la passe 2 ne survivrait pas à un changement de session.
+- **Branche `ingest/<date>` mergée après validation** *(abandonné le 2026-07-28)* — Obsidian ignore les branches ; un oubli de retour sur `main` fait diverger le vault en silence. Le contrôle est déjà assuré par la passe 1 : la branche déplace le risque au lieu de le réduire.
+- **Un commit par lot d'ingestion** *(abandonné le 2026-07-28)* — rend impossible le retour arrière sur une seule fiche et sa propagation.
+- **Aucun push automatique** *(abandonné le 2026-07-28)* — un canon validé mais non poussé laisse Claude Projects raisonner sur un état périmé, ce qui régénère le problème d'origine.
 
-## 9. Dernière validation
+## 10. Dernière validation
 
-**2026-07-28** — design validé en session, avant implémentation.
+**2026-07-28** — design validé en session, git inclus, avant implémentation.
