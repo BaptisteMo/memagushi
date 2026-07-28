@@ -28,6 +28,14 @@ from pathlib import Path
 
 VAULT = Path(__file__).resolve().parent.parent.parent
 PRONONCIATION = Path(__file__).resolve().parent / "prononciation.json"
+VOIX_CHOISIE = Path(__file__).resolve().parent / "voix.conf"
+
+# Voix « personnage » de macOS : très bien pour une alarme, épuisantes sur
+# vingt minutes de prose. Écartées du choix automatique, jamais interdites.
+NOUVEAUTE = {"eddy", "flo", "grandma", "grandpa", "reed", "rocko", "sandy",
+             "shelley", "albert", "bahh", "bells", "boing", "bubbles",
+             "cellos", "jester", "organ", "superstar", "trinoids",
+             "whisper", "wobble", "zarvox"}
 
 # Pauses, en millisecondes.
 PAUSE_TITRE = 700
@@ -293,8 +301,13 @@ def nettoyer(corps, lexique, prononciation, titre_annonce=None):
 # Voix et lecture
 # --------------------------------------------------------------------------
 
+def est_premium(nom):
+    return bool(re.search(r"premium|enhanced|amélior", nom, re.I))
+
+
 def voix_fr():
-    """Voix françaises disponibles : Premium/Enhanced d'abord, France avant Canada."""
+    """Voix françaises, classées : Premium d'abord, puis les voix de lecture,
+    France avant Canada, les voix « personnage » en dernier."""
     try:
         brut = subprocess.run(["say", "-v", "?"], capture_output=True,
                               text=True, check=True).stdout
@@ -305,10 +318,23 @@ def voix_fr():
         m = re.match(r"^(.*?)\s+(fr_[A-Z]{2})\s+#", ligne)
         if m:
             nom, locale = m.group(1).strip(), m.group(2)
-            qualite = 0 if re.search(r"premium|enhanced", nom, re.I) else 1
-            region = 0 if locale == "fr_FR" else 1
-            trouvees.append((qualite, region, nom))
-    return [n for _, _, n in sorted(trouvees)]
+            base = re.split(r"\s*\(", nom)[0].strip().casefold()
+            trouvees.append((
+                0 if est_premium(nom) else 1,     # qualité
+                1 if base in NOUVEAUTE else 0,    # voix de lecture d'abord
+                0 if locale == "fr_FR" else 1,    # France avant Canada
+                nom))
+    return [n for *_, n in sorted(trouvees)]
+
+
+def voix_par_defaut():
+    """Un choix figé par --choisir prime sur le classement automatique."""
+    if VOIX_CHOISIE.exists():
+        nom = VOIX_CHOISIE.read_text(encoding="utf-8").strip()
+        if nom and nom in voix_fr():
+            return nom
+    dispo = voix_fr()
+    return dispo[0] if dispo else None
 
 
 def resoudre_fiche(cible):
@@ -347,21 +373,39 @@ def main():
     ap.add_argument("-r", "--vitesse", type=int, default=190,
                     help="mots par minute (défaut : 190)")
     ap.add_argument("--voix", action="store_true", help="lister les voix françaises")
+    ap.add_argument("--choisir", metavar="NOM",
+                    help="figer la voix par défaut (nom exact donné par --voix)")
     args = ap.parse_args()
+
+    if args.choisir:
+        if args.choisir not in voix_fr():
+            print(f"Voix inconnue : {args.choisir}\n"
+                  f"Utiliser exactement un des noms donnés par --voix.", file=sys.stderr)
+            sys.exit(1)
+        VOIX_CHOISIE.write_text(args.choisir + "\n", encoding="utf-8")
+        print(f"Voix par défaut : {args.choisir}")
+        return
 
     if args.voix:
         dispo = voix_fr()
         if not dispo:
             print("Aucune voix française installée.")
             return
-        print("Voix françaises disponibles (la première est celle par défaut) :\n")
+        actuelle = voix_par_defaut()
+        print("Voix françaises disponibles :\n")
         for nom in dispo:
-            marque = "  ★" if re.search(r"premium|enhanced", nom, re.I) else "   "
-            print(f"{marque} {nom}")
-        if not any(re.search(r"premium|enhanced", n, re.I) for n in dispo):
+            marque = "★" if est_premium(nom) else " "
+            defaut = "  ← utilisée" if nom == actuelle else ""
+            print(f"  {marque} {nom}{defaut}")
+        if not any(est_premium(n) for n in dispo):
             print("\nAucune voix Premium ou Enhanced installée — ce sont les seules"
-                  "\nvraiment écoutables. Réglages Système → Accessibilité →"
-                  "\nContenu énoncé → Voix système → Gérer les voix → Français.")
+                  "\nvraiment écoutables sur la durée. Réglages Système → Accessibilité"
+                  "\n→ Contenu énoncé → Voix système → Gérer les voix → Français."
+                  "\nÉviter Eloquence (synthèse rétro) et les voix Siri, que `say`"
+                  "\nne peut pas utiliser.")
+        else:
+            print("\n★ = voix Premium ou Enhanced.  Pour en figer une :"
+                  "\n   lire.py --choisir \"Nom exact\"")
         return
 
     if not args.fiche:
@@ -395,7 +439,7 @@ def main():
         print(texte)
         return
 
-    voix = args.voix_nom or (voix_fr() or [None])[0]
+    voix = args.voix_nom or voix_par_defaut()
     if not voix:
         print("Aucune voix française installée.", file=sys.stderr)
         sys.exit(1)

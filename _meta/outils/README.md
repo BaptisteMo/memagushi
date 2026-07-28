@@ -34,7 +34,11 @@ Les voix livrées par défaut sont les **compactes**, celles de VoiceOver, et el
 
 > Réglages Système → Accessibilité → Contenu énoncé → Voix système → Gérer les voix → Français → choisir *Premium* (≈ 500 Mo)
 
-`lire.py` prend automatiquement la meilleure voix disponible : Premium d'abord, France avant Canada. `--voix` montre ce qui est installé et signale s'il n'y a rien de Premium. `-v "Nom"` force une voix, `-r 220` accélère.
+**Deux pièges dans ce menu.** *Eloquence* est une famille de synthèse rétro volontairement robotique, destinée aux habitués des anciens lecteurs d'écran — à fuir. Les voix *Siri* sont réservées au système : `say` ne peut pas les utiliser, les choisir n'aura aucun effet ici.
+
+Bonnes voix françaises : **Audrey**, **Aurélie**, **Marie**, **Thomas**, en variante *Améliorée* (Enhanced) ou *Premium*.
+
+`lire.py` classe automatiquement : Premium d'abord, puis les voix de lecture, France avant Canada, les voix « personnage » (Eddy, Flo, Grandma, Rocko…) en dernier. `--voix` montre ce qui est installé et laquelle sert. Pour en figer une : `--choisir "Audrey (Enhanced)"` (écrit dans `voix.conf`). `-v "Nom"` force ponctuellement, `-r 220` accélère.
 
 ### Ce que le pré-traitement fait
 
