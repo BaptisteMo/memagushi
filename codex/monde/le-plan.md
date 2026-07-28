@@ -13,14 +13,18 @@ touches:
   - "[[l-epanchement]]"
   - "[[lumens]]"
   - "[[prismes-noirs]]"
+  - "[[roche-memoire]]"
+  - "[[tisseuses]]"
   - "[[humain]]"
   - "[[dragon]]"
+  - "[[races-liees]]"
+  - "[[lexique]]"
 tensions: []
 ---
 
 # Le Plan
 
-> **Rôle dans le canon.** Fiche fondatrice. Remplace `couleurs-magiques` (abandonnée). Elle dit **ce que fait** un acte de magie et **par quelle géométrie** tout acte se situe. Presque tout le système magique en découle. Elle ne parle plus jamais de couleurs : les couleurs étaient un habillage de départ, la structure réelle est un **plan à deux axes**.
+> **Rôle dans le canon.** Fiche fondatrice. Remplace `couleurs-magiques`, supprimée. Elle dit **ce que fait** un acte de magie et **par quelle géométrie** tout acte se situe. Presque tout le système magique en découle. Elle ne parle plus jamais de couleurs : les couleurs étaient un habillage de départ, la structure réelle est un **plan à deux axes**.
 
 > **Statut : `draft`.** Ossature verrouillée (les deux axes, l'acte = un point, l'interdit de transmutation, les deux pôles d'entropie, l'identité = position d'origine). Ouverts : le nombre et l'emplacement des origines, la forme exacte du plan, et l'axiome-racine qui décide où l'on naît (renvoyé à la génétique / aux biomes). Ne pas figer les peuples tant que [[humain]] et [[dragon]] ne sont pas réécrits.
 
@@ -61,14 +65,16 @@ Conséquence : « fondre », « solidifier », « vaporiser » ne sont pas des p
 
 Le plomb (82 protons) et l'or (79) sont des **atomes différents** : aucune pression, aucune chaleur, aucun réordonnancement ne fait de l'or à partir du plomb — c'est du nucléaire, pas de la magie de la matière. **La magie déplace et énergise la matière ; elle ne change pas un élément en un autre.** La rareté tient, l'alchimie toute-puissante est impossible.
 
-## 6. Les deux pôles de l'entropie (l'ancien axe « luminosité », refondé)
+## 6. Les deux pôles de l'entropie
 
 La direction d'ordre a deux extrêmes, tous deux **non-moraux** :
 
-- **Vers le dispersé (« clair »).** L'ordre créé **se dissipe** après usage : l'entropie remonte, le Flux retourne au souffle du monde. On agit *dans le sens du monde*, et le monde reprend son dû.
-- **Vers l'ordonné (« sombre »).** L'ordre créé est **verrouillé, autonome, permanent** — un cristal à jamais, un mort qui marche, un [[prismes-noirs|Prisme Noir]]. On a fait une île d'ordre que rien ne reprend, et le 2e principe **exige que l'univers paie ailleurs** : entropie accrue autour, la gemme inspire plus fort, la [[le-cycle|Rétractation]] s'aggrave.
+- **Vers le dispersé.** L'ordre créé **se dissipe** après usage : l'entropie remonte, le Flux retourne au souffle du monde. On agit *dans le sens du monde*, et le monde reprend son dû.
+- **Vers l'ordonné.** L'ordre créé est **verrouillé, autonome, permanent** — un cristal à jamais, un mort qui marche, un [[prismes-noirs|Prisme Noir]]. On a fait une île d'ordre que rien ne reprend, et le 2e principe **exige que l'univers paie ailleurs** : entropie accrue autour, la gemme inspire plus fort, la [[le-cycle|Rétractation]] s'aggrave.
 
-Aucun pôle n'est vertueux : une culture de la permanence (monuments, mémoire, héritage) honore le sombre ; une culture du moment vivant honore le clair. Même axe, lu à l'envers selon le peuple.
+Aucun pôle n'est vertueux : une culture de la permanence (monuments, mémoire, héritage) honore l'ordonné ; une culture du moment vivant honore le dispersé. Même axe, lu à l'envers selon le peuple.
+
+> **Raccord au canon existant, non prémédité.** Les détournements respiratoires que [[le-cycle#4. La boucle de rétroaction|le-cycle §4]] décrivait — [[roche-memoire|Roche-Mémoire]], [[lumens|Lumens]], [[prismes-noirs|Prismes Noirs]] — sont tous des **ordres verrouillés**. Ce que la civilisation appelait « retenir hors du circuit » est exactement le pôle ordonné de cet axe. La physique et le lore se rejoignent sans raccord manuel.
 
 ## 7. L'identité est une position, pas un domaine
 
@@ -87,18 +93,47 @@ La position d'origine n'est ni choisie ni décrétée fiche par fiche : elle est
 
 ---
 
+## Ce que cette fiche contraint
+
+- **[[le-lien]]** — l'appariement se lit désormais comme un **écart de positions dans le plan**. La loi binaire de famille chromatique tombe avec les couleurs (§7 : rien n'est interdit, tout est coût).
+- **[[coeur-magique]]** — les deux rôles portent les deux temps d'un même acte : charger la tension, la libérer sur le réel.
+- **[[tisseuses]]** — elles éditent la **position d'origine** d'un enfant, non plus sa teinte.
+- **[[lumens]] / [[roche-memoire]] / [[prismes-noirs]]** — requalifiés en ordres verrouillés (§6).
+- **[[humain]] / [[dragon]] / [[races-liees]]** — les peuples ne portent plus de règle mécanique propre : ils portent une **région d'origine** et une **doctrine**. Fiches à réécrire intégralement.
+- **[[lexique]]** — tout le vocabulaire chromatique du monde est à refaire.
+
+---
+
+## Ouvertures
+
 > [!warning] Trous volontaires
 > - **⚠️ Le nombre et l'emplacement des origines.** Combien de « points de départ » typiques, et où dans le plan. Renvoyé aux fiches de peuples ; gelé tant que [[humain]] / [[dragon]] ne sont pas refaits.
-> - **⚠️ La forme du plan.** Deux axes = quatre coins ; assume-t-on quatre pôles francs, ou pense-t-on en régions continues autour d'un centre ? Structurant, non bloquant.
-> - **⚠️ Peut-on « re-disperser » un ordre verrouillé ?** Le passage vers le sombre est-il à sens unique (irréversible, très noir) ou une dette remboursable ? Hérité de l'ancien chantier, toujours ouvert.
-> - **⚠️ Ce que la magie ne touche pas.** L'esprit, l'âme, le [[le-lien|lien]] lui-même sont-ils « de la matière » soumise aux deux axes, ou hors d'atteinte ? À trancher tôt.
+> - **⚠️ La forme du plan.** Deux axes = quatre coins ; assume-t-on quatre pôles francs, ou pense-t-on en régions continues autour d'un centre ? **Devenu structurant :** depuis la suppression des couleurs, c'est cette question qui décide si le monde garde des « familles » d'appariement discrètes ou un pur continuum (cf. [[le-lien]]).
+> - **⚠️ Peut-on « re-disperser » un ordre verrouillé ?** Le passage vers l'ordonné est-il à sens unique (irréversible, très noir) ou une dette remboursable ?
+> - **⚠️ Ce que la magie ne touche pas.** L'esprit, l'âme, le [[le-lien|lien]] lui-même sont-ils « de la matière » soumise aux deux axes, ou hors d'atteinte ? À trancher tôt : décide si le [[sirrhal|Sirrhal]] est un objet manipulable, donc si [[la-rupture]] relève de la physique ou du sacrilège.
+
+---
 
 ## Choix abandonnés
 
-*Ne pas reproposer ; motifs dans [[journal#Écartés (et pourquoi)|journal.md]].*
+*Consignés ici pour éviter le bruit dans le corps de la fiche. Ne pas reproposer ; motifs détaillés dans [[journal#Écartés (et pourquoi)|journal.md]].*
 
-- **Le cercle chromatique entier** (teinte / saturation / luminosité comme système). Remplacé par le plan à deux axes ; les couleurs n'ont plus aucun rôle mécanique.
-- **La teinte = une opération** (séparer / lier / suspendre — l'ancienne « Voie A »). Une opération sur la matière se réduit toujours aux deux axes ; trois verbes irréductibles sont impossibles sur une base à deux grandeurs.
-- **La teinte = un élément** (rouge/feu, bleu/eau). Système élémentaire générique, refusé.
-- **La teinte = un état de la matière** (rouge/solide, bleu/liquide). Un état est un résultat, pas une identité ; et « rouge = solide » est à une inférence de « rouge = terre ».
-- **La synthèse additive des secondaires** (jaune = R+V = transformer, etc.). Machinerie d'opérations composables, morte avec la Voie A. La composition se fait désormais au niveau des **dyades**, pas des couleurs (cf. [[le-lien]]).
+**Le système chromatique dans son entier** *(abandonné le 2026-07-28)* — teinte, saturation et luminosité comme mécanique de la magie. Remplacé par le plan à deux axes. **Les couleurs n'ont plus aucun rôle dans ce monde et ne doivent réapparaître nulle part**, hors de cette liste. Le détail des abandons antérieurs est conservé ci-dessous : ce sont autant d'impasses à ne pas rouvrir.
+
+- **La teinte = une opération** (séparer / lier / suspendre) *(abandonné le 2026-07-28)* — une opération sur la matière se réduit toujours aux deux axes ; trois verbes irréductibles sont impossibles sur une base à deux grandeurs.
+- **La synthèse additive des secondaires** (jaune = transformer, cyan = soigner, magenta = extraire) *(abandonné le 2026-07-28)* — machinerie d'opérations composables, morte avec la teinte-opération.
+- **Les six familles nommées** comme grille canonique *(abandonné le 2026-07-28)* — il n'y a plus de familles, seulement des positions et des écarts.
+- **La saturation comme axe de puissance** et **la luminosité comme troisième valeur** *(abandonnées le 2026-07-28)* — absorbées respectivement par l'énergie et l'entropie, qui les fondent au lieu de les décréter.
+- **L'axe de faible résistance par espèce** (dragons sur S, humains sur H) *(abandonné le 2026-07-28)* — une règle mécanique par peuple ; remplacé par la position d'origine (§7-8), qui produit les mêmes archétypes sans loi particulière.
+- **La teinte = un état de la matière** (rouge/solide, bleu/liquide) *(abandonné le 2026-07-24)* — un état est un résultat, pas une identité (§4).
+- **La teinte = un élément** (rouge/feu, bleu/eau) *(abandonné le 2026-07-21)* — système élémentaire générique, refusé.
+- **Primaires « force / forme / mémoire »** *(abandonné le 2026-07-21)* — trop proche de corps-esprit-âme, non déduit du monde.
+- **Bleu = « fixer »** *(abandonné le 2026-07-21)* — méta-geste parasite ; corrigé en « suspendre », puis emporté avec le reste.
+- **Alphabet de glyphes tracés** *(abandonné le 2026-07-21)* — second système redondant.
+- **Découpage culturel variable du spectre** *(abandonné le 2026-07-21)* — recomplexifiait ce que la grille cherchait à rendre lisible.
+
+---
+
+## Dernière validation
+
+**2026-07-28** — ingérée depuis `_raw/` et adoptée comme fiche fondatrice de la magie. Reste `draft` : quatre ⚠️ ouvertes, dont la forme du plan, devenue structurante.
