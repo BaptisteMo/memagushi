@@ -1,0 +1,16 @@
+{
+  "_commentaire": "Corrections de prononciation pour lire.py. Clé = ce qui est écrit dans les fiches, valeur = orthographe bidouillée qui sonne juste. La substitution ignore la casse et ne touche que les mots entiers. Ajouter au fur et à mesure : chaque nom propre inventé y a sa place. Les clés commençant par _ sont ignorées.",
+
+  "Sirrhal": "Sirral",
+  "Enaär": "Éna-ar",
+  "Saovan": "Sa-ovan",
+  "Korr-Siir": "Kor Sir",
+  "Vexhards": "Vexards",
+  "Vexhard": "Vexard",
+  "agôgè": "agogué",
+  "oliganthropie": "oligantropie",
+  "Inlié": "Inlié",
+  "Inliés": "Inlié",
+  "Triarcat": "Triarka",
+  "Cabios": "Kabioss"
+}

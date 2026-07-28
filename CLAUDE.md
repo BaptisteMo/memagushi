@@ -24,6 +24,7 @@ codex/lieux/                           géographie, lieux de rite
 tension/ · chronique/
 _meta/templates/                       gabarits de fiche
 _meta/specs/                           specs d'outillage
+_meta/outils/                          outillage local (lire.py : écouter une fiche)
 _raw/                                  dépôt des fiches rédigées hors du vault
 _inbox/                                stubs vides créés par clic Obsidian
 ```
