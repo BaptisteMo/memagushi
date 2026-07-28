@@ -2,15 +2,17 @@
 id: chantier-systeme-magie
 aliases: [Refonte du système de magie, Chantier magie, Débat couleurs]
 type: meta
-status: en-debat
-maj: 2026-07-22
+status: clos
+maj: 2026-07-28
 ---
 
 # Chantier — Refonte du système de magie
 
-> **Ce que c'est.** Journal de travail d'une remise à plat complète du système de couleurs / magie, menée le 2026-07-22. **Rien ici n'est canon.** C'est un débat ouvert, avec ses impasses, gardé intégralement pour être repris (y compris dans une conversation parallèle). Quand une base sera choisie, elle ira dans [[couleurs-magiques]] et ce fichier deviendra un historique.
+> **CLOS le 2026-07-28. Historique, plus un chantier.** Le carrefour de §4 a été tranché — par une **troisième voie** que ce document n'envisageait pas : ni la teinte-opération (Voie A), ni la teinte-résonance (Voie B), mais **la suppression totale de la teinte**. La magie se lit désormais dans un plan à deux axes, énergie et entropie. Voir [[le-plan]], fiche fondatrice, et [[coeur-magique]].
 >
-> **Statut : bloqué sur un carrefour** (voir §4). Beaucoup d'acquis (§3), mais le cœur — ce qu'est une « teinte » — n'est pas tranché.
+> **Ce document reste lisible pour une seule raison : son §5.** Le journal des pistes et de leurs ruptures est ce qui empêche de rouvrir des impasses déjà refermées. Le reste est périmé — en particulier tout ce qui suppose que les couleurs survivent sous une forme ou une autre.
+
+> **Ce que c'est.** Journal de travail d'une remise à plat complète du système de magie, menée le 2026-07-22. **Rien ici n'est canon.**
 
 ---
 
@@ -120,15 +122,32 @@ Le système se réduit à deux axes rigoureux :
 
 ---
 
-## 7. Impact sur le canon existant (ce qui est en sursis)
+## 6bis. Comment le carrefour a été tranché *(2026-07-28)*
 
-- **[[couleurs-magiques]]** — **largement remis en question.** `bleu = suspendre`, les secondaires (`transformer/soigner/extraire`), et la luminosité (à réécrire = entropie) sont en débat. Seul §5 (la mobilité par la saturation) survit tel quel. **Ne pas construire dessus tant que le carrefour n'est pas tranché.**
-- **[[le-cycle]]** — rien de faux, mais **à enrichir** : nommer explicitement le 1er principe (conservation) et articuler l'entropie. Les acquis §3.4–3.5 y trouveront leur place.
-- **[[humain]]** — la faculté « mobilité chromatique » **survit dans les deux voies** (elle n'est que « faible saturation = mobilité », §3.2). Robuste.
-- **[[economie]]**, **[[le-lien]]** — peu touchés ; l'appariement par affinité de teinte est même **renforcé** par la Voie B.
+**Ni A ni B — la teinte disparaît entièrement.**
+
+Le §4 posait le dilemme comme un choix entre deux métiers pour la teinte : une opération (A) ou une résonance (B). La sortie a été de constater qu'elle n'en avait aucun. La physique n'offrant que deux grandeurs, **on garde ces deux grandeurs et rien d'autre** : l'énergie devient ce que l'ancienne saturation prétendait mesurer, l'entropie ce que la luminosité cherchait depuis le début, et la teinte n'a plus de place. L'appariement se lit comme un **écart de positions** dans ce plan.
+
+Ce que ça règle et que ni A ni B ne réglaient : plus aucun blur possible (§5 devient sans objet), plus de règle mécanique par peuple, plus de troisième axe orphelin.
+
+Ce que ça coûte, et c'est assumé : la grammaire composable façon *Atelier des Sorciers* est définitivement perdue — le prix que §4 chiffrait déjà pour la Voie B. La combinatoire vient désormais de la **matière** (quel matériau, dans quel état, à quel seuil), pas d'un système de symboles.
+
+Les acquis §3 survivent tous, sauf §3.2 (la saturation gouverne la mobilité), qui tombe avec les axes par espèce.
+
+---
+
+## 7. Impact sur le canon existant *(état à la clôture)*
+
+*Ce qui a effectivement eu lieu le 2026-07-28, la troisième voie étant plus destructrice que les deux envisagées ici :*
+
+- **`couleurs-magiques`** — **supprimée**, pas amendée. Ses abandons vivent dans [[le-plan]].
+- **[[le-cycle]]** — enrichi comme prévu : conservation nommée (§1.1), entropie articulée (§4). Reste `canon`.
+- **`humain`** et **`dragon`** — **supprimées**. La faculté humaine était donnée pour robuste ici ; elle ne l'était pas. Elle reposait sur §3.2, tombé avec les axes par espèce. À réécrire comme cultures.
+- **[[le-lien]]** — le pronostic « peu touché » était **faux**. Toute sa §6 a été réécrite et la fiche est rétrogradée en `draft` : la loi de famille chromatique disparaît et le plafond de convergence des dyades est rouvert.
+- **[[economie]]** — raccordée au Plan, vocabulaire chromatique retiré.
 
 ---
 
 ## Dernière mise à jour
 
-**2026-07-22** — fin de la session de débat. Bloqué au carrefour §4 (Voie A vs Voie B). Reprise prévue en conversation parallèle.
+**2026-07-28** — **chantier clos.** Carrefour tranché par une troisième voie (§6bis) : suppression totale de la teinte. Le canon vit désormais dans [[le-plan]] et [[coeur-magique]]. Ce document est conservé pour son §5 — le cimetière des pistes — et pour rien d'autre.

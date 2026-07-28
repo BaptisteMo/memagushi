@@ -2,15 +2,19 @@
 id: piste-etats-matiere
 aliases: [Piste états de la matière, Teinte = état de la matière, Débat post-recherche]
 type: meta
-status: en-debat
-maj: 2026-07-24
+status: clos
+maj: 2026-07-28
 ---
 
 # Piste — La teinte comme état de la matière
 
-> **Ce que c'est.** Compte rendu factuel de la discussion menée après les deux recherches comparatives ([[recherche-systemes-magie]], [[recherche-magie-difficulte]]). Une nouvelle piste pour le carrefour de [[chantier-systeme-magie]] a émergé, proposée par l'auteur. **Rien ici n'est canon.** Débat ouvert, gardé pour reprise.
+> **ÉCARTÉE le 2026-07-28.** La piste supposait que la teinte survive en portant quelque chose — ici les états de la matière. [[le-plan]] a tranché en supprimant la teinte : il n'y a plus rien à lui faire porter. Sa question bloquante (§5) est donc sans objet.
 >
-> **Statut : proposée, non tranchée.** Une question bloquante identifiée (§4).
+> **Ce qui en a été retenu, et c'est considérable.** Tout le §3 — la chaleur latente comme barrière d'âge, la métastabilité comme charge cognitive, les seuils par matériau, les modes d'échec déduits de la matière — **survit intact** sous le Plan. C'était la meilleure part de la piste et elle ne dépendait pas des couleurs : elle décrit ce que coûte un trajet dans le plan, pas ce qu'une teinte fait. Voir [[le-plan#7. L'identité est une position, pas un domaine|le-plan §7]]. Le §2 note d'ailleurs que le verbe y était déjà unique — *déplacer la matière sur le diagramme de phase* ; le Plan généralise exactement ça.
+>
+> **Ce que ça règle au passage :** la collision §4.1 (la teinte porterait deux métiers) disparaît d'elle-même, puisqu'elle n'en porte plus aucun.
+
+> **Ce que c'est.** Compte rendu factuel de la discussion menée après les deux recherches comparatives ([[recherche-systemes-magie]], [[recherche-magie-difficulte]]). **Rien ici n'est canon.**
 
 ---
 
@@ -82,8 +86,8 @@ Non tranchée.
 
 ## Choix abandonnés
 
-*(rien — fiche de débat)*
+- **La teinte comme état de la matière** *(abandonnée le 2026-07-28)* — sans objet : [[le-plan]] supprime la teinte au lieu de lui trouver un métier. Un état est un résultat d'un déplacement dans le plan, jamais une identité ([[le-plan#4. Les états de la matière sont des résultats, pas des opérations|le-plan §4]]).
 
 ## Dernière validation
 
-**2026-07-24** — compte rendu produit, non relu par l'auteur.
+**2026-07-28** — piste close. Sa couche « difficulté » (§3) est reprise telle quelle sous le Plan ; le reste est périmé.
