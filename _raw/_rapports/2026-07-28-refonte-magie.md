@@ -141,21 +141,8 @@ Dans les trois cas, `coeur-magique` peut être ingérée séparément **si** la 
 ---
 
 ## Arbitrage
-
 <!-- À remplir à la main. L'agent ne modifie jamais cette section.
-     Une décision par collision numérotée, par fiche.
+     Les deux fiches sont les nouvelles vérités, tout le système de couleur n'existe plus du tout, les deux fiches de races sont complétement à supprimer car je vais les ré-écrire complètement. Le lien est désormais sous le spectre unique du plan. On ne mentionne plus du tout les couleurs, nul part à part dans les décisions abandonné, c'est un choix délibéré et longuement réfléchis.
 
-     le-plan.md
-       Option retenue (A / B / C) :
-       1. Teinte / le-lien :
-       2. Axes de faible résistance :
-       3. Six familles :
-       4. Renvois périmés de le-lien :
-
-     coeur-magique.md
-       1. Saturation / assèchement :
-       2. Détectabilité du rôle avant l'Épanchement :
-       3. Facultés de race :
-       4. depends_on le-plan / flux :
-       5. Lien [[CLAUDE]] :
+ Il faut donc revoir entiérement le-lien et le-cycle sous cette nouvelle perspective. 
 -->
