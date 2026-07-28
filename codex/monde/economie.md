@@ -7,7 +7,7 @@ status: draft
 depends_on:
   - "[[le-cycle]]"
   - "[[le-lien]]"
-  - "[[couleurs-magiques]]"
+  - "[[le-plan]]"
 touches:
   - "[[lumens]]"
   - "[[roche-memoire]]"
@@ -15,7 +15,6 @@ touches:
   - "[[vexhards]]"
   - "[[tisseuses]]"
   - "[[geographie]]"
-  - "[[humain]]"
   - "[[la-purge]]"
 tensions:
   - "[[monopole-de-la-penurie]]"
@@ -46,10 +45,12 @@ Toute l'économie du Sillage naît de ce point, et de deux autres déjà posés 
 
 *(Déplacé depuis [[le-cycle]] §7, qui garde le mécanisme physique — le Lumen comme perfusion pendant la récession.)*
 
-Les Lumens se **raffinent par teinte**, et le commerce s'est stratifié en conséquence :
+Les Lumens se **raffinent par position** — on les remplit d'une charge orientée, calibrée sur une région du [[le-plan|Plan]] — et le commerce s'est stratifié en conséquence :
 
-- **Premium** — remplis d'une teinte **exacte**, calibrés pour une consommation précise (une école de magie, un usage militaire, un rituel). Une magie prête à l'emploi, sans perte. Réservés à qui peut payer le paramétrage.
-- **Classiques** — teintes **génériques**, parfois même de la magie **incomplètement raffinée** : le réceptacle n'a pas fini de la différencier, il reste du travail à faire côté utilisateur. Rendement médiocre — et **d'autant plus médiocre en période creuse**, quand l'énergie manque justement pour terminer l'ouvrage.
+- **Premium** — chargés sur une position **exacte**, calibrés pour une consommation précise (une école de magie, un usage militaire, un rituel). Une magie prête à l'emploi, sans perte. Réservés à qui peut payer le paramétrage.
+- **Classiques** — charge **générique**, parfois même **incomplètement différenciée** : le réceptacle n'a pas fini son travail, il en reste à faire côté utilisateur. Rendement médiocre — et **d'autant plus médiocre en période creuse**, quand l'énergie manque justement pour terminer l'ouvrage.
+
+> **Ce que le Plan y ajoute.** Un Lumen est un **ordre verrouillé** ([[le-plan#6. Les deux pôles de l'entropie|le-plan §6]]) : ce qui le rend vendable est exactement ce qui aggrave la Rétractation. Le produit et le dommage sont le même geste.
 
 > **Le pauvre paie sa magie deux fois : au marché, puis à l'effort.** Et il la paie au pire moment, puisque c'est en récession qu'il en a le plus besoin et qu'elle rend le moins.
 
@@ -61,8 +62,8 @@ Les Lumens se **raffinent par teinte**, et le commerce s'est stratifié en cons�
 
 Deux trafics distincts, déjà décrits ailleurs, qui relèvent de cette fiche :
 
-- **Les teintes rares** — les [[tisseuses|Tisseuses déchues]] vendent des liens forcés aux grandes familles et aux nouveaux riches. Le marché ne trafique pas des « âmes » abstraites : il trafique des **teintes** que le stock naturel ne fournit pas. Voir [[le-lien#8. Les Tisseuses|le-lien §8.2]].
-- **Le raccourci** — les [[prismes-noirs|Prismes Noirs]] vendent en une opération ce qui coûterait des décennies d'étude. Ce qu'ils marchandent réellement, c'est du **temps**. Contrefaçon industrielle de la faculté humaine, fabriquée par les [[vexhards|Vexhards]] à partir d'âmes volées. Voir [[humain#6. Raccord : les Prismes Noirs sont une contrefaçon|humain §6]].
+- **Les positions rares** — les [[tisseuses|Tisseuses déchues]] vendent des liens forcés aux grandes familles et aux nouveaux riches. Le marché ne trafique pas des « âmes » abstraites : il trafique des **positions d'origine** que le stock naturel d'une salle ne fournit presque jamais. Voir [[le-lien#8. Les Tisseuses|le-lien §8.2]].
+- **Le raccourci** — les [[prismes-noirs|Prismes Noirs]] vendent en une opération ce qui coûterait des décennies d'étude. Ce qu'ils marchandent réellement, c'est du **temps** : le trajet dans le Plan qu'on n'a pas eu à financer soi-même. Fabriqués par les [[vexhards|Vexhards]] à partir d'âmes volées.
 
 > **Les deux vendent la même chose sous deux formes : de la rareté qu'on n'a pas eu la chance de recevoir à la naissance.**
 
@@ -70,7 +71,7 @@ Deux trafics distincts, déjà décrits ailleurs, qui relèvent de cette fiche :
 
 ## 4. Le monopole de la pénurie
 
-Le cœur politique de l'économie du lien, développé dans [[humain#10. Pourquoi les élites laissent faire|humain §10]] :
+Le cœur politique de l'économie du lien. *(Développement à reprendre dans [[humain]], fiche à réécrire.)*
 
 > La puissance des grandes familles repose sur le **contrôle de l'accès aux réceptacles** : routes, Jardins de Lien, alliances, [[geographie|lieux de rite privatisés]]. **Leur monopole, c'est la pénurie.** Toute abondance nouvelle les ruinerait — ce qui fait de la rareté un actif qu'on protège, et de la [[la-purge|Purge]] une politique économique déguisée en coutume.
 
@@ -86,13 +87,13 @@ C'est la tension [[monopole-de-la-penurie]].
 - **Le prix du « naturel »** — l'accès aux lieux de rite puissants s'achète, et avec lui la qualité de l'âme d'un enfant. Voir [[le-lien#3. Les lieux du rite|le-lien §3]].
 - **La géographie du pouvoir** — la carte des lieux de rite est la carte des marchés. Voir [[geographie]].
 
-> **Piège à éviter — ne pas confondre deux « prix ».** Le « coût » de la [[couleurs-magiques#5. La mobilité des valeurs : rien n'est figé, tout est coûteux|mobilité des valeurs]] (années, discipline, vie dépensée) est une **métaphore**, pas une transaction. Cette fiche traite de ce qui s'échange contre de la monnaie, pas de l'effort d'un individu sur lui-même.
+> **Piège à éviter — ne pas confondre deux « prix ».** Le « coût » d'un trajet dans [[le-plan#7. L'identité est une position, pas un domaine|le Plan]] (années, discipline, vie dépensée pour s'éloigner de son origine) est une **métaphore**, pas une transaction. Cette fiche traite de ce qui s'échange contre de la monnaie, pas de l'effort d'un individu sur lui-même.
 
 ---
 
 ## 6. Ce que cette fiche contraint
 
-- **[[lumens]]** — l'objet a une face physique (réservoir magenta) et une face marchande (ici).
+- **[[lumens]]** — l'objet a une face physique (un ordre verrouillé, [[le-plan]] §6) et une face marchande (ici).
 - **[[vexhards]]** — l'industrialisation de la dyade est un modèle économique avant d'être une horreur.
 - **[[geographie]]** — les marchés sont là où sont les lieux de rite.
 
@@ -113,10 +114,10 @@ C'est la tension [[monopole-de-la-penurie]].
 
 *Consignés ici pour éviter le bruit dans le corps de la fiche. Ne pas reproposer ; motifs détaillés dans [[journal#Écartés (et pourquoi)|journal.md]].*
 
-- *(néant à ce jour)*
+- **Le raffinage des Lumens « par teinte »** *(abandonné le 2026-07-28)* — le système chromatique est supprimé du monde ([[le-plan]]). Un Lumen se charge sur une **position** du Plan, pas sur une couleur.
 
 ---
 
 ## Dernière validation
 
-**2026-07-22** — création comme hub économique. Contenu déplacé : marché des Lumens (depuis le-cycle §7). Reste `draft` : monnaie, guildes, crédit, statut économique des réceptacles.
+**2026-07-28** — passe de raccord au [[le-plan|Plan]] : vocabulaire chromatique retiré, Lumens et Prismes Noirs rattachés au pôle ordonné de l'entropie. Renvois vers `humain` neutralisés en attendant sa réécriture. Reste `draft` : monnaie, guildes, crédit, statut économique des réceptacles.
