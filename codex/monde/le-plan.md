@@ -24,19 +24,19 @@ tensions: []
 
 # Le Plan
 
-> **Rôle dans le canon.** Fiche fondatrice. Remplace `couleurs-magiques`, supprimée. Elle dit **ce que fait** un acte de magie et **par quelle géométrie** tout acte se situe. Presque tout le système magique en découle. Elle ne parle plus jamais de couleurs : les couleurs étaient un habillage de départ, la structure réelle est un **plan à deux axes**.
+> **Rôle dans le canon.** Fiche fondatrice. Elle dit **ce que fait** un acte de magie et **par quelle géométrie** tout acte se situe. Presque tout le système magique en découle.
 
 > **Statut : `draft`.** Ossature verrouillée (les deux axes, l'acte = un point, l'interdit de transmutation, les deux pôles d'entropie, l'identité = position d'origine). Ouverts : le nombre et l'emplacement des origines, la forme exacte du plan, et l'axiome-racine qui décide où l'on naît (renvoyé à la génétique / aux biomes). Ne pas figer les peuples tant que [[humain]] et [[dragon]] ne sont pas réécrits.
 
 ---
 
-## 1. Principe : la magie n'a ni couleur ni élément
+## 1. Principe : la magie n'a pas de catégories
 
-**Loi invariante.** Un acte de magie ne manipule ni une « couleur », ni un « élément », ni une substance qui lui serait propre. Il agit sur la **matière ordinaire** — la même pour tous — et se situe entièrement par **deux grandeurs physiques**.
+**Loi invariante.** Un acte de magie ne manipule ni un élément, ni une substance qui lui serait propre, ni rien qui puisse se ranger dans une liste. Il agit sur la **matière ordinaire** — la même pour tous — et se situe entièrement par **deux grandeurs physiques**.
 
 [[le-cycle|Le Cycle]] pose que la gemme exhale du [[flux|Flux]] indifférencié et que le vivant le **différencie**. Différencier, c'est déplacer de la matière dans ces deux grandeurs. Il n'y a rien d'autre.
 
-> Garde-fou central. Toute proposition future du type « le rouge fait le feu », « untel maîtrise les liquides », « telle teinte = tel geste » est à refuser : elle réintroduit soit le système élémentaire, soit la magie-opération, tous deux explicitement abandonnés (voir *Choix abandonnés*).
+> **Garde-fou central.** Toute proposition future qui attribuerait à un praticien, à un peuple ou à une catégorie **une matière** (« untel maîtrise les liquides ») ou **un geste nommé** (« untel sépare, untel lie ») est à refuser sans discussion. Ces deux formes — la magie-élément et la magie-opération — ont été essayées et se sont effondrées ; le détail est en *Choix abandonnés*, et il n'est pas à rouvrir.
 
 ## 2. Les deux axes
 
@@ -59,7 +59,7 @@ Geler une flaque, liquéfier de la roche, figer une plaie : trois points du plan
 
 Conséquence : « fondre », « solidifier », « vaporiser » ne sont pas des pouvoirs. Ce sont les noms que le profane donne à des trajets dans le plan. Le praticien, lui, ne pense pas en états — il pense en énergie et en sens d'ordre.
 
-> C'est ici que meurt définitivement « une teinte = un état de la matière ». On n'agit pas *sur* un état ; on déplace la matière, et l'état suit.
+> **Garde-fou.** On n'agit jamais *sur* un état — on déplace la matière, et l'état suit. Toute règle qui attribuerait un état à un praticien, à un peuple ou à une catégorie est une erreur de canon.
 
 ## 5. Pas de transmutation de substance (verrouillé)
 
@@ -95,12 +95,12 @@ La position d'origine n'est ni choisie ni décrétée fiche par fiche : elle est
 
 ## Ce que cette fiche contraint
 
-- **[[le-lien]]** — l'appariement se lit désormais comme un **écart de positions dans le plan**. La loi binaire de famille chromatique tombe avec les couleurs (§7 : rien n'est interdit, tout est coût).
+- **[[le-lien]]** — l'appariement se lit comme un **écart de positions dans le plan**. Aucun lien n'est impossible : §7 pose que rien n'est interdit et que tout est coût. Il n'y a donc plus de condition binaire d'appariement.
 - **[[coeur-magique]]** — les deux rôles portent les deux temps d'un même acte : charger la tension, la libérer sur le réel.
-- **[[tisseuses]]** — elles éditent la **position d'origine** d'un enfant, non plus sa teinte.
+- **[[tisseuses]]** — leur art porte sur la **position d'origine** d'un enfant, qu'elles déplacent à vie.
 - **[[lumens]] / [[roche-memoire]] / [[prismes-noirs]]** — requalifiés en ordres verrouillés (§6).
 - **[[humain]] / [[dragon]] / [[races-liees]]** — les peuples ne portent plus de règle mécanique propre : ils portent une **région d'origine** et une **doctrine**. Fiches à réécrire intégralement.
-- **[[lexique]]** — tout le vocabulaire chromatique du monde est à refaire.
+- **[[lexique]]** — le monde n'a plus de mots pour dire ce qu'il fait. Comment le vulgaire nomme les deux axes, les régions du plan et les positions reste **entièrement à trouver**.
 
 ---
 
@@ -108,7 +108,7 @@ La position d'origine n'est ni choisie ni décrétée fiche par fiche : elle est
 
 > [!warning] Trous volontaires
 > - **⚠️ Le nombre et l'emplacement des origines.** Combien de « points de départ » typiques, et où dans le plan. Renvoyé aux fiches de peuples ; gelé tant que [[humain]] / [[dragon]] ne sont pas refaits.
-> - **⚠️ La forme du plan.** Deux axes = quatre coins ; assume-t-on quatre pôles francs, ou pense-t-on en régions continues autour d'un centre ? **Devenu structurant :** depuis la suppression des couleurs, c'est cette question qui décide si le monde garde des « familles » d'appariement discrètes ou un pur continuum (cf. [[le-lien]]).
+> - **⚠️ La forme du plan.** Deux axes = quatre coins ; assume-t-on quatre pôles francs, ou pense-t-on en régions continues autour d'un centre ? **Structurant :** c'est cette question qui décide si le monde connaît des « familles » d'appariement discrètes ou un pur continuum de coût (cf. [[le-lien]]).
 > - **⚠️ Peut-on « re-disperser » un ordre verrouillé ?** Le passage vers l'ordonné est-il à sens unique (irréversible, très noir) ou une dette remboursable ?
 > - **⚠️ Ce que la magie ne touche pas.** L'esprit, l'âme, le [[le-lien|lien]] lui-même sont-ils « de la matière » soumise aux deux axes, ou hors d'atteinte ? À trancher tôt : décide si le [[sirrhal|Sirrhal]] est un objet manipulable, donc si [[la-rupture]] relève de la physique ou du sacrilège.
 

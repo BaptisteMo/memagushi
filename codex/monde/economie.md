@@ -37,7 +37,7 @@ tensions:
 Toute l'économie du Sillage naît de ce point, et de deux autres déjà posés :
 
 - **La magie se stocke** — un [[lumens|Lumen]] retient du Flux différencié hors circuit. Ce qui se stocke se thésaurise, donc se vend ([[#2. Le marché des Lumens|§2]]).
-- **La bonne magie est rare** — l'harmonie parfaite est une coïncidence de naissance ([[le-lien#6. L'échelle d'harmonie : la lecture chromatique|le-lien §6]]). Ce qui est rare et désiré se dispute ([[#3. Le marché noir|§3]], [[#4. Le monopole de la pénurie|§4]]).
+- **La bonne magie est rare** — l'harmonie parfaite est une coïncidence de naissance ([[le-lien#6. L'échelle d'harmonie : la lecture des positions|le-lien §6]]). Ce qui est rare et désiré se dispute ([[#3. Le marché noir|§3]], [[#4. Le monopole de la pénurie|§4]]).
 
 ---
 
@@ -106,7 +106,7 @@ C'est la tension [[monopole-de-la-penurie]].
 > - **⚠️ Qui contrôle le raffinage** des Lumens premium — guilde, familles, État ?
 > - **⚠️ L'assurance du pouls.** [[le-cycle#6. Les deux échelles (résolution de collision)|le-cycle §6]] dit que la société « assure » la respiration courte. Un marché de l'assurance existe donc — contre quoi, vendu par qui ?
 > - **⚠️ Le crédit et la dette.** Une société qui thésaurise la magie pratique-t-elle le prêt ? Prête-t-on du Flux ?
-> - **⚠️ Le travail des réceptacles.** Sont-ils payés, possédés, salariés, réquisitionnés ? Leur statut économique est le vrai visage du [[le-lien#5. Réceptacles et utilisateurs — le modèle|prestige des rôles]].
+> - **⚠️ Le travail des réceptacles.** Sont-ils payés, possédés, salariés, réquisitionnés ? Leur statut économique est le vrai visage du [[le-lien#5. Réceptacles et utilisateurs — le versant social|prestige des rôles]].
 
 ---
 

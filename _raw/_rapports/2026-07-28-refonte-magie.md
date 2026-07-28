@@ -1,7 +1,7 @@
 ---
 id: 2026-07-28-refonte-magie
 type: meta
-status: en-attente-arbitrage
+status: applique
 ---
 
 # Rapport d'ingestion — 2026-07-28

@@ -37,7 +37,7 @@ blessure_historique:
 
 ## 2. Idéologie du rôle
 
-*Réceptacle ou utilisateur — et ce que la culture en fait. Rappel : le rôle est indépendant de l'espèce (voir [[le-lien#5. Réceptacles et utilisateurs — le modèle|le-lien §5]]). C'est une doctrine, jamais une biologie.*
+*Réceptacle ou utilisateur — et ce que la culture en fait. Rappel : le rôle est indépendant de l'espèce (voir [[le-lien#5. Réceptacles et utilisateurs — le versant social|le-lien §5]]). C'est une doctrine, jamais une biologie.*
 
 ---
 
