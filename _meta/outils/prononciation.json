@@ -1,6 +1,15 @@
 {
   "_commentaire": "Corrections de prononciation pour lire.py. Clé = ce qui est écrit dans les fiches, valeur = orthographe bidouillée qui sonne juste. La substitution ignore la casse et ne touche que les mots entiers. Ajouter au fur et à mesure : chaque nom propre inventé y a sa place. Les clés commençant par _ sont ignorées.",
 
+  "_note_slugs": "Les fiches non écrites n'ont pas d'aliases : leur nom vient du slug, sans accents. À corriger ici jusqu'à ce que la fiche existe.",
+  "epanchement": "épanchement",
+  "heredite": "hérédité",
+  "geographie": "géographie",
+  "declasses": "déclassés",
+  "eclats nus": "éclats nus",
+  "veilleurs du souffle": "veilleurs du souffle",
+  "roche memoire": "roche mémoire",
+
   "Sirrhal": "Sirral",
   "Enaär": "Éna-ar",
   "Saovan": "Sa-ovan",

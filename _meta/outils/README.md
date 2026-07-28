@@ -79,3 +79,21 @@ alias lire='python3 ~/memagushi/_meta/outils/lire.py'
 ```
 
 Puis `lire le-plan -s 6`.
+
+---
+
+## Commande `/lire`
+
+Dans Claude Code, `.claude/commands/lire.md` expose le script en slash command :
+
+```
+/lire le-plan             génère l'audio et l'ouvre dans le lecteur
+/lire le-lien -s 6.1      une seule section
+/lire le-plan --direct    parle tout de suite, en tâche de fond
+/lire le-plan -t          affiche le texte parlable
+/lire                     rappelle l'usage et liste les voix
+```
+
+Le mode par défaut génère un `.m4a` **volontairement** : lire une fiche en direct bloquerait la session Claude Code pendant toute la durée. `--direct` détache le processus et rend le PID pour pouvoir le couper.
+
+Le wrapper est `lire-cmd.sh` ; toute la logique de traitement reste dans `lire.py`, appelable seul.
