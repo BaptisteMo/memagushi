@@ -11,6 +11,40 @@ status: vivant
 
 ---
 
+## Refonte du système de magie — les couleurs disparaissent *(2026-07-28)*
+
+*La plus grosse décision prise à ce jour. Elle supprime plus qu'elle n'ajoute, et c'est délibéré. Entrée dans le vault par [[le-plan]] et [[coeur-magique]], rédigées hors du vault et ingérées via `/ingerer` (rapport : `_raw/_rapports/2026-07-28-refonte-magie.md`).*
+
+**Le carrefour de [[chantier-systeme-magie]] est tranché — par une troisième voie.** Ni la teinte-opération (Voie A), ni la teinte-résonance (Voie B) : **la teinte n'existe plus du tout.** La physique n'offrant que deux grandeurs, on garde ces deux-là et rien d'autre. **Les couleurs ne doivent réapparaître nulle part dans le canon**, hors des sections « Choix abandonnés ».
+
+**Le Plan remplace le cercle chromatique.** Deux axes, et deux seulement : l'**énergie** (combien de puissance est engagée — une jauge) et l'**entropie** (dans quel sens on pousse l'ordre — une boussole). Tout acte de magie est un **point** portant les deux coordonnées à la fois. Les états de la matière sont des **résultats** d'un déplacement, jamais des opérations.
+→ *L'énergie absorbe ce que la saturation prétendait mesurer ; l'entropie donne enfin son sens à la luminosité, orpheline depuis le 2026-07-21. Le troisième axe n'attend plus son peuple : il n'y a plus de troisième axe.*
+→ *Les deux pôles d'entropie sont **non-moraux**. Vers le dispersé : l'ordre se dissipe, le monde reprend son dû. Vers l'ordonné : l'ordre est verrouillé, et le 2e principe exige que l'univers paie ailleurs.*
+
+**L'identité est une position, pas un domaine.** On naît en un point du Plan. Ce point n'interdit rien et n'accorde aucun monopole : il fixe ce qui est **bon marché** et ce qui est **ruineux**. Jamais de déblocage, seulement un continuum de coût.
+→ ***Conséquence : plus aucune règle mécanique par peuple.*** Les axes de faible résistance par espèce (dragons sur S, humains sur H) sont supprimés. Retour au principe fondateur : les différences entre races sont **doctrinales**, jamais biologiques. [[humain]] et [[dragon]] sont **supprimées du corpus** et à réécrire entièrement comme cultures portant une région d'origine.
+
+**Le cœur magique reçoit enfin sa fiche**, après avoir été réclamé en `depends_on` par six fiches sans jamais être écrit. Les deux rôles deviennent les **deux temps d'un même acte** : le réceptacle **charge** (met le Flux sous tension, rien ne sort encore), l'utilisateur **libère** (relâche la tension sur le réel). La magie est un problème à deux corps par nécessité physique, pas par convention sociale.
+→ *Correction apportée à l'ingestion : la fiche entrante décrivait charger/libérer sans le **coût** des deux rôles. Sans lui, la dyade se relit comme une pile et un appareil — exactement ce que le canon refuse. Saturation du réceptacle et assèchement de l'utilisateur réintégrés en §2.1.*
+→ *« Un cœur rempli ne s'ouvre pas » devient une loi physique et non une cruauté de rite. Revers : **combler un enfant l'empêche de s'ouvrir — l'amour comme verrou.***
+
+**Deux conséquences non prévues par les fiches entrantes, relevées à l'audit.**
+
+→ ***La loi originelle de famille chromatique tombe.*** C'était la seule condition **binaire** du monde. Puisque aucune position n'est interdite, **il n'existe plus aucune impossibilité d'appariement** — seulement des prix. Un [[inlies|Inlié]] n'est donc plus quelqu'un qu'on *ne pouvait pas* lier : c'est quelqu'un que le rite **n'a pas su financer**. C'est plus dur, et plus accusateur : il n'y a plus de fatalité à invoquer. ⚠️ *Reste ouvert : ce seuil pratique tient-il au lieu, à la praticienne, ou à l'enfant ? La réponse désigne un coupable.*
+
+→ ***Le plafond arithmétique des dyades s'effondre.*** Il reposait sur les axes par espèce (« deux membres, au plus un axe chacun, jamais trois »). Le Plan ayant **deux** axes et une dyade **deux** membres, plus rien n'interdit à un couple qui travaille de converger sur les deux — donc d'atteindre l'harmonie parfaite sans l'avoir reçue au berceau. **Si ça tient, la noblesse de naissance perd toute justification en une génération.** ⚠️ *Structurant, non tranché. Piste notée : converger coûterait de l'énergie prise sur le budget de la dyade — le plafond serait alors **économique**, pas géométrique. On ne s'accorderait qu'en renonçant à ce qu'on sait faire.*
+
+**Ce qui a été renforcé sans effort.** Les trois détournements respiratoires — [[roche-memoire|Roche-Mémoire]], [[lumens|Lumens]], [[prismes-noirs|Prismes Noirs]] — reçoivent une **signature physique commune** : ce sont des **ordres verrouillés**. Le détournement cesse d'être une catégorie économique plaquée sur la physique pour devenir un pôle de l'axe entropie.
+→ ***Corollaire qui n'appartient qu'à ce monde :** une civilisation qui bâtit pour durer creuse sa propre disette. Le monument, l'archive, l'héritage et le Prisme Noir sont le même geste à des degrés différents.*
+
+**Ce que ça coûte, assumé.** La grammaire composable façon *L'Atelier des Sorciers* est définitivement perdue — on ne compose plus deux couleurs pour en déduire un effet. La combinatoire vient désormais de la **matière** : quel matériau sous la main, dans quel état, à quel seuil. Modèle de remplacement : *Mistborn* (« quel métal autour »), enrichi par la couche difficulté de [[piste-etats-matiere]], qui survit intacte.
+
+**[[le-lien]] rétrogradée `canon` → `draft`.** Elle n'est pas fausse, elle est réécrite : la lecture chromatique a disparu du corps, l'ossature sociale est intacte (rite, privation, Tisseuses, Inliés, deux registres, mensonge au centre). Mais un point structurant y est rouvert (le plafond de convergence) et deux de ses dépendances sont neuves et `draft`.
+
+**[[le-cycle]] reste `canon`** — aucune de ses lois n'est remise en cause. La refonte n'a fait qu'expliciter ce qu'elle disait déjà : le Cycle **est** une conservation (§1.1 ajoutée), et le budget d'énergie de tout praticien est un prélèvement sur la respiration du monde.
+
+---
+
 ## Relecture fiche par fiche *(2026-07-22)*
 
 *Passage en revue du corpus, fiche par fiche, pour validation. Première fiche : [[le-lien]].*
@@ -346,10 +380,12 @@ status: vivant
 ## Chantiers ouverts
 
 **Prioritaires**
+- **Réécrire [[humain]] et [[dragon]]**, supprimées le 2026-07-28. Comme **cultures**, plus comme porteuses d'une règle mécanique : une région d'origine dans [[le-plan|le Plan]], une doctrine, et toujours les 4 axes. *Contenu récupérable dans git.*
+- **Trancher le plafond de convergence des dyades** ([[le-lien]] §6.1). Rouvert par la refonte ; décide si la noblesse de naissance garde quoi que ce soit.
 - **Les autres races** (3 à 5 au total). Chacune doit recevoir les 4 axes. Il manque notamment une race qui **glorifie le réceptacle** et méprise les humains comme dépensiers stériles.
-- **Le système des couleurs** : quelle teinte = quel domaine de magie. Primaires, secondaires, intermédiaires.
 - **L'Unification sous le [[triarcat|Triarcat]]** — plus grosse dette historique. Tout le présent devrait en être la cicatrice.
 - **[[la-purge]]** — nom, date, doctrine, déroulé.
+- **[[flux]] et [[l-epanchement]]** — invoquées par [[le-plan]] et [[coeur-magique]] sans jamais être écrites. Le Flux est supposé porter énergie et entropie : aucune fiche ne l'établit.
 
 **En attente**
 - [[heredite]] — reproduction, sexualité, transmission des teintes *(idée personnelle en réserve)*.
@@ -368,6 +404,21 @@ status: vivant
 ---
 
 ## Écartés (et pourquoi)
+
+*Section du 2026-07-28 — la refonte du système de magie. Tout ce qui suit a été **supprimé du monde**, pas seulement écarté comme piste. Ne rien reproposer, sous aucune forme.*
+
+- **Le système chromatique dans son entier** — teinte, saturation, luminosité. Remplacé par le plan à deux axes ([[le-plan]]). Motif de fond : la physique n'offre que deux grandeurs, donc aucune triade d'opérations irréductibles n'était tenable — tout le cimetière de [[chantier-systeme-magie]] §5 le démontre piste par piste. **Les couleurs n'ont plus aucun rôle et ne doivent réapparaître nulle part.**
+- **La teinte comme opération** (séparer / lier / suspendre) — se réduit toujours aux deux axes.
+- **La synthèse additive des secondaires** (transformer / soigner / extraire) — machinerie composable, morte avec la teinte-opération.
+- **Les six familles nommées** — il n'y a plus de familles, seulement des positions et des écarts.
+- **La teinte comme état de la matière** — la piste du 2026-07-24 cherchait un métier à la teinte ; le Plan la supprime au lieu de lui en trouver un. Sa couche « difficulté » survit, elle ne dépendait pas des couleurs.
+- **L'axe de faible résistance par espèce** (dragons sur S, humains sur H) — une règle mécanique par peuple, en contradiction avec le principe fondateur « les différences sont doctrinales avant d'être biologiques ». La position d'origine produit les mêmes archétypes sans loi particulière.
+- **La mobilité chromatique comme faculté humaine** — tombe avec l'axe H.
+- **Le plafond arithmétique des dyades** et **la supériorité mécanique de la mixité sur l'endogamie** — corollaires du même calcul par axes. La question du plafond reste ouverte, le calcul est mort.
+- **La loi originelle de famille chromatique** — seule condition binaire du monde ; aucune position n'étant interdite, il n'y a plus d'impossibilité d'appariement.
+- **La grammaire composable façon *L'Atelier des Sorciers*** — prix assumé de la refonte. La combinatoire vient désormais de la matière, pas d'un système de symboles.
+
+---
 
 - **Modèle « robinet » du Cycle** — faisait des vivants des récipiendaires passifs.
 - **Longévité comme trait dragon** — connotation de sagesse incompatible.
