@@ -21,29 +21,29 @@ cssclasses: []
 
 ## État du corpus
 
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Fiche",
-  type AS "Type",
-  layer AS "Couche",
-  status AS "Statut",
-  length(file.outlinks) AS "Liens sortants"
-FROM "codex" OR "tension" OR "chronique"
-WHERE type
-SORT status DESC, layer ASC, file.name ASC
-```
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Fiche", type AS "Type", layer AS "Couche", status AS "Statut", length(file.outlinks) AS "Liens sortants" FROM "codex" OR "tension" OR "chronique" WHERE type SORT status DESC, layer ASC, file.name ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Fiche", type AS "Type", layer AS "Couche", status AS "Statut", length(file.outlinks) AS "Liens sortants" FROM "codex" OR "tension" OR "chronique" WHERE type SORT status DESC, layer ASC, file.name ASC -->
+| Fiche | Type | Couche | Statut | Liens sortants |
+| ----- | ---- | ------ | ------ | -------------- |
+| [[economie]] | codex | consequence | draft | 42 |
+| [[coeur-magique]] | codex | invariant | draft | 32 |
+| [[le-lien]] | codex | invariant | draft | 82 |
+| [[le-plan]] | codex | invariant | draft | 43 |
+| [[le-cycle]] | codex | invariant | canon | 52 |
+<!-- SerializedQuery END -->
 
 ### Les invariants et ce qui en dépend
 
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Fiche",
-  depends_on AS "Dépend de",
-  touches AS "Contraint"
-FROM "codex" OR "tension" OR "chronique"
-WHERE type
-SORT layer ASC
-```
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Fiche", depends_on AS "Dépend de", touches AS "Contraint" FROM "codex" OR "tension" OR "chronique" WHERE type SORT layer ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Fiche", depends_on AS "Dépend de", touches AS "Contraint" FROM "codex" OR "tension" OR "chronique" WHERE type SORT layer ASC -->
+| Fiche | Dépend de | Contraint |
+| ----- | --------- | --------- |
+| [[economie]] | [[le-cycle]], [[le-lien]], [[le-plan]] | [[lumens]], [[roche-memoire]], [[prismes-noirs]], [[vexhards]], [[tisseuses]], [[geographie]], [[la-purge]] |
+| [[coeur-magique]] | [[le-cycle]], [[le-plan]], [[flux]] | [[le-lien]], [[l-epanchement]], [[races-liees]], [[inlies]] |
+| [[le-cycle]] | [[gemmes]], [[flux]], [[coeur-magique]] | [[le-lien]], [[le-plan]], [[races-liees]], [[roche-memoire]], [[lumens]], [[vexhards]], [[oracles]], [[economie]], [[la-purge]], [[geographie]] |
+| [[le-lien]] | [[coeur-magique]], [[le-plan]], [[sirrhal]], [[le-cycle]] | [[inlies]], [[tisseuses]], [[veilleurs-du-souffle]], [[castes]], [[hauts-harmoniques]], [[races-liees]], [[eclats-nus]], [[la-rupture]], [[vexhards]], [[lexique]], [[geographie]], [[la-voix]], [[lumens]] |
+| [[le-plan]] | [[le-cycle]], [[flux]] | [[coeur-magique]], [[le-lien]], [[l-epanchement]], [[lumens]], [[prismes-noirs]], [[roche-memoire]], [[tisseuses]], [[humain]], [[dragon]], [[races-liees]], [[lexique]] |
+<!-- SerializedQuery END -->
 
 ---
 
