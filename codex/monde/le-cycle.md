@@ -1,6 +1,8 @@
 ---
 id: le-cycle
-aliases: [Le Cycle, la respiration du monde]
+aliases:
+  - Le Cycle
+  - la respiration du monde
 type: codex
 layer: invariant
 status: canon

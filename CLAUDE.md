@@ -67,7 +67,7 @@ Partenaire de conception critique. Pas un assistant complaisant.
 
 **Thèse centrale :** une civilisation qui a marchandé son âme et a appelé ça l'harmonie. En cas d'hésitation sur un choix, demander : *comment ont-ils appris à vivre avec ça ?*
 
-**Aucune race n'a de pouvoir secret.** Toutes lisent les mêmes valeurs universelles (teinte, saturation, luminosité). Ce qui les différencie : leur **faculté innée** et ce que leur **culture décide d'en faire**. Les différences sont doctrinales avant d'être biologiques.
+**Aucune race n'a de pouvoir secret.** Ce qui les différencie : leur **faculté innée** et ce que leur **culture décide d'en faire**. Les différences sont doctrinales avant d'être biologiques.
 
 **Pas d'anthropocentrisme.** Les humains sont une espèce liable parmi d'autres. Il existe des dyades sans humain. Leur prééminence est une conquête politique, jamais un fait de nature.
 

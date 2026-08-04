@@ -1,5 +1,5 @@
 ---
-id: 
+id:
 aliases: []
 type: codex
 layer: consequence
@@ -8,17 +8,17 @@ depends_on:
   - "[[le-lien]]"
   - "[[le-cycle]]"
   - "[[coeur-magique]]"
-  - "[[couleurs-magiques]]"
+  - "[[le-plan]]"
 touches:
   - "[[races-liees]]"
   - "[[lexique]]"
 tensions: []
 endonyme: "[⚠️ à définir]"
-role_dominant: 
-role_ideologie: 
-faculte_innee: 
-apport_dyade: 
-blessure_historique: 
+role_dominant:
+role_ideologie:
+faculte_innee:
+apport_dyade:
+blessure_historique:
 ---
 
 # 
@@ -74,7 +74,7 @@ blessure_historique:
 ## Ouvertures
 
 > [!warning] Trous volontaires
-> - **⚠️ Teinte dominante** —
+> - **⚠️Position d'origine dans le Plan** —
 > - **⚠️ Endonyme** —
 
 ---

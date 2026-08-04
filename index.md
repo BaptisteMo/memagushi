@@ -12,37 +12,36 @@ cssclasses: []
 > **Usage.** Carte du corpus. À lire en premier, à chaque session.
 >
 > Cet index a **deux moitiés**. Ce qui suit immédiatement est **calculé** à partir du frontmatter des fiches : ça ne peut pas mentir tant que le frontmatter est juste. Ce qui vient après « Ce qui est verrouillé » est **rédigé à la main** : ce sont des jugements, aucune requête ne les produira. Voir `CLAUDE.md` §7.
-
-> [!info] Dataview requis
-> Les blocs ci-dessous s'affichent en code brut tant que le module **Dataview** n'est pas installé.
-> *Paramètres → Modules complémentaires → Parcourir → « Dataview » → Installer, puis Activer.*
-
 ---
 
 ## État du corpus
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Fiche", type AS "Type", layer AS "Couche", status AS "Statut", length(file.outlinks) AS "Liens sortants" FROM "codex" OR "tension" OR "chronique" WHERE type SORT status DESC, layer ASC, file.name ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Fiche", type AS "Type", layer AS "Couche", status AS "Statut", length(file.outlinks) AS "Liens sortants" FROM "codex" OR "tension" OR "chronique" WHERE type SORT status DESC, layer ASC, file.name ASC -->
-| Fiche | Type | Couche | Statut | Liens sortants |
-| ----- | ---- | ------ | ------ | -------------- |
-| [[economie]] | codex | consequence | draft | 42 |
-| [[coeur-magique]] | codex | invariant | draft | 32 |
-| [[le-lien]] | codex | invariant | draft | 82 |
-| [[le-plan]] | codex | invariant | draft | 43 |
-| [[le-cycle]] | codex | invariant | canon | 52 |
+
+| Fiche                                           | Type  | Couche      | Statut | Liens sortants |
+| ----------------------------------------------- | ----- | ----------- | ------ | -------------- |
+| [[economie]]           | codex | consequence | draft  | 42             |
+| [[coeur-magique]] | codex | invariant   | draft  | 32             |
+| [[le-lien]]             | codex | invariant   | draft  | 81             |
+| [[le-plan]]             | codex | invariant   | draft  | 43             |
+| [[le-cycle]]           | codex | invariant   | canon  | 52             |
+
 <!-- SerializedQuery END -->
 
 ### Les invariants et ce qui en dépend
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Fiche", depends_on AS "Dépend de", touches AS "Contraint" FROM "codex" OR "tension" OR "chronique" WHERE type SORT layer ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Fiche", depends_on AS "Dépend de", touches AS "Contraint" FROM "codex" OR "tension" OR "chronique" WHERE type SORT layer ASC -->
-| Fiche | Dépend de | Contraint |
-| ----- | --------- | --------- |
-| [[economie]] | [[le-cycle]], [[le-lien]], [[le-plan]] | [[lumens]], [[roche-memoire]], [[prismes-noirs]], [[vexhards]], [[tisseuses]], [[geographie]], [[la-purge]] |
-| [[coeur-magique]] | [[le-cycle]], [[le-plan]], [[flux]] | [[le-lien]], [[l-epanchement]], [[races-liees]], [[inlies]] |
-| [[le-cycle]] | [[gemmes]], [[flux]], [[coeur-magique]] | [[le-lien]], [[le-plan]], [[races-liees]], [[roche-memoire]], [[lumens]], [[vexhards]], [[oracles]], [[economie]], [[la-purge]], [[geographie]] |
-| [[le-lien]] | [[coeur-magique]], [[le-plan]], [[sirrhal]], [[le-cycle]] | [[inlies]], [[tisseuses]], [[veilleurs-du-souffle]], [[castes]], [[hauts-harmoniques]], [[races-liees]], [[eclats-nus]], [[la-rupture]], [[vexhards]], [[lexique]], [[geographie]], [[la-voix]], [[lumens]] |
-| [[le-plan]] | [[le-cycle]], [[flux]] | [[coeur-magique]], [[le-lien]], [[l-epanchement]], [[lumens]], [[prismes-noirs]], [[roche-memoire]], [[tisseuses]], [[humain]], [[dragon]], [[races-liees]], [[lexique]] |
+
+| Fiche                                           | Dépend de                                                                                                                                                                                    | Contraint                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[economie]]           | <ul><li>[[le-cycle]]</li><li>[[le-lien]]</li><li>[[le-plan]]</li></ul>                                           | <ul><li>[[lumens]]</li><li>[[roche-memoire]]</li><li>[[prismes-noirs]]</li><li>[[vexhards]]</li><li>[[tisseuses]]</li><li>[[geographie]]</li><li>[[la-purge]]</li></ul>                                                                                                                                                                                                               |
+| [[coeur-magique]] | <ul><li>[[le-cycle]]</li><li>[[le-plan]]</li><li>[[flux]]</li></ul>                                                                | <ul><li>[[le-lien]]</li><li>[[l-epanchement]]</li><li>[[races-liees]]</li><li>[[inlies]]</li></ul>                                                                                                                                                                                                                                                                                                                      |
+| [[le-cycle]]           | <ul><li>[[gemmes]]</li><li>[[flux]]</li><li>[[coeur-magique]]</li></ul>                                                                       | <ul><li>[[le-lien]]</li><li>[[le-plan]]</li><li>[[races-liees]]</li><li>[[roche-memoire]]</li><li>[[lumens]]</li><li>[[vexhards]]</li><li>[[oracles]]</li><li>[[economie]]</li><li>[[la-purge]]</li><li>[[geographie]]</li></ul>                                                                                        |
+| [[le-lien]]             | <ul><li>[[coeur-magique]]</li><li>[[le-plan]]</li><li>[[sirrhal]]</li><li>[[le-cycle]]</li></ul> | <ul><li>[[inlies]]</li><li>[[tisseuses]]</li><li>[[veilleurs-du-souffle]]</li><li>[[castes]]</li><li>[[hauts-harmoniques]]</li><li>[[races-liees]]</li><li>[[eclats-nus]]</li><li>[[la-rupture]]</li><li>[[vexhards]]</li><li>[[lexique]]</li><li>[[geographie]]</li><li>[[la-voix]]</li><li>[[lumens]]</li></ul> |
+| [[le-plan]]             | <ul><li>[[le-cycle]]</li><li>[[flux]]</li></ul>                                                                                                             | <ul><li>[[coeur-magique]]</li><li>[[le-lien]]</li><li>[[l-epanchement]]</li><li>[[lumens]]</li><li>[[prismes-noirs]]</li><li>[[roche-memoire]]</li><li>[[tisseuses]]</li><li>[[humain]]</li><li>[[dragon]]</li><li>[[races-liees]]</li><li>[[lexique]]</li></ul>                                       |
+
 <!-- SerializedQuery END -->
 
 ---
@@ -148,7 +147,7 @@ dv.table(["Fiche manquante", "Réclamée par", "Où"], rows)
 ### Structurantes (bloquent d'autres fiches)
 
 - **⚠️ Le plafond de convergence d'une dyade.** Rouvert par la refonte du 2026-07-28 : l'ancien calcul par axes est mort. Le Plan a **deux** axes, une dyade **deux** membres — plus rien n'interdit à un couple qui travaille d'atteindre l'harmonie parfaite sans l'avoir reçue au berceau. **Si ça tient, la noblesse de naissance perd toute justification en une génération.** *Piste : converger coûterait de l'énergie prise sur le budget de la dyade — plafond économique, pas géométrique.* Voir [[le-lien#6.1 Le tissage est un instant T — le lien, lui, évolue|le-lien §6.1]]. **Le plus lourd des points ouverts.**
-- **⚠️ La forme du Plan** — quatre pôles francs, ou régions continues autour d'un centre ? *Devenu structurant depuis la suppression des couleurs : décide si le monde garde des « familles » d'appariement ou un pur continuum. Bloque les fiches de race.*
+- **⚠️ La forme du Plan** — quatre pôles francs, ou régions continues autour d'un centre ? 
 - **⚠️ Ce que la magie ne touche pas.** L'esprit, l'âme, le lien lui-même sont-ils soumis aux deux axes ? *Décide si le [[sirrhal|Sirrhal]] est un objet manipulable, donc si [[la-rupture]] relève de la physique ou du sacrilège.*
 - **⚠️ Le nombre et l'emplacement des origines** — combien de points de départ typiques, et où. *Gelé tant que [[humain]] et [[dragon]] ne sont pas réécrits.*
 - **L'interruption du geste.** Chez Shirahama, couper la ligne annule le sort — la magie y est dramatiquement vulnérable. Le Sillage n'a pas d'équivalent : la distance joue-t-elle, peut-on brouiller un lien sans le rompre ?
